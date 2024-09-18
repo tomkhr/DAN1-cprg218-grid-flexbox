@@ -1,5 +1,5 @@
 # CPRG 218 Intermediate Web Communications Grid & Flexbox Demo
-##Module 3 - Building Responsive Websites
+## Module 3 - Building Responsive Websites
 ### Week 3
 These are the starter HTML files for the week 3 introduction to Grid and Flexbox.
 
