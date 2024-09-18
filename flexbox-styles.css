@@ -1,0 +1,44 @@
+body {
+    color: red;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    border: 5px solid red;
+    flex: 1;
+    /* flex: 1 - sets every section to be the same width */
+    padding: 20px;
+}
+
+section#appetizers {
+    flex: 2;
+}
+/* tag # class - sets style to only that tag with that id. does not effect all other identical tags that don't have that specific id */
+
+section#appetizers, section#mains, section#desserts {
+    background-color: yellow;
+}
+
+footer, header {
+    border: 5px solid black;
+    padding: 20px;
+}
+
+div#diner {
+    display: flex;
+}
+
+div#red {
+    background-color: red;
+    flex: 1;
+    height: 50px;
+}
+
+div#white {
+    background-color: white;
+    flex: 1;
+    height: 50px;
+}
